@@ -65,21 +65,8 @@ path{
     /*background-image: url('cossos_0.png');
     background-repeat: no-repeat;*/
     transform: scale(1.7);
-    width: 100% !important;
-    max-width: 100% !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: visible;
     
-}
 
-#map {
-    width: 100% !important;
-    max-width: 750px;
-    height: auto !important;
-    display: block;
-    margin: 0 auto;
 }
 
 #main_title{
@@ -1471,7 +1458,7 @@ input:checked + .slider:before {
 }
 
 /* ======================================== */
-/* SCORAD 小人图响应式优化 - 修复移动端显示问题 */
+/* SCORAD 小人图响应式优化 */
 /* ======================================== */
 
 /* 基础样式 - 确保内容不被固定表头遮住 */
@@ -1485,23 +1472,19 @@ input:checked + .slider:before {
         padding-top: 140px !important;
         margin-top: 0 !important;
         padding-bottom: 10px !important;
-        width: 100% !important;
-        overflow: visible !important;
     }
     
     .bodyimg {
-        transform: scale(0.45) !important;
-        transform-origin: top center !important;
-        width: 100% !important;
+        transform: scale(0.35) !important;
+        transform-origin: center center !important;
         max-width: 100% !important;
         height: auto !important;
-        overflow: visible !important;
     }
     
     #map {
         width: 100% !important;
         height: auto !important;
-        max-width: 450px !important;
+        max-width: 375px !important;
         margin: 0 auto !important;
     }
     
@@ -1528,21 +1511,11 @@ input:checked + .slider:before {
         padding-top: 145px !important;
         margin-top: 0 !important;
         padding-bottom: 20px !important;
-        width: 100% !important;
-        overflow: visible !important;
     }
     
     .bodyimg {
-        transform: scale(0.6) !important;
-        transform-origin: top center !important;
-        width: 100% !important;
-        overflow: visible !important;
-    }
-    
-    #map {
-        width: 100% !important;
-        max-width: 600px !important;
-        margin: 0 auto !important;
+        transform: scale(0.5) !important;
+        transform-origin: center center !important;
     }
 }
 
@@ -1553,8 +1526,8 @@ input:checked + .slider:before {
     }
     
     .bodyimg {
-        transform: scale(0.7) !important;
-        transform-origin: top center !important;
+        transform: scale(0.6) !important;
+        transform-origin: center center !important;
     }
 }
 
@@ -1565,8 +1538,8 @@ input:checked + .slider:before {
     }
     
     .bodyimg {
-        transform: scale(0.75) !important;
-        transform-origin: top center !important;
+        transform: scale(0.65) !important;
+        transform-origin: center center !important;
     }
 }
 
@@ -1579,15 +1552,15 @@ input:checked + .slider:before {
     }
     
     .bodyimg {
-        transform: scale(0.8) !important;
-        transform-origin: top center !important;
+        transform: scale(0.7) !important;
+        transform-origin: center center !important;
     }
 }
 
 /* 超宽屏幕优化 */
 @media only screen and (min-width: 1440px) {
     .bodyimg {
-        transform: scale(0.9) !important;
+        transform: scale(0.8) !important;
     }
 }
 
@@ -1598,7 +1571,7 @@ input:checked + .slider:before {
     }
     
     .bodyimg {
-        transform: scale(0.6) !important;
+        transform: scale(0.5) !important;
     }
     
     #body-block {
